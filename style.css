@@ -118,8 +118,13 @@ body {
 
 .delivery {
   display: flex;
-  /* justify-content: flex-start; */
+  justify-content: space-between;
   margin-top: 25px;
+  align-items: center;
+}
+
+.deliveryleft {
+  display: flex;
   align-items: center;
 }
 
@@ -130,10 +135,6 @@ body {
   border-radius: 50%;
   background-color: rgb(112, 193, 24);
   margin-right: 10px;
-}
-
-.del_price {
-  justify-self: flex-end;
 }
 
 .boxblack {
@@ -153,7 +154,8 @@ body {
 }
 
 .select a {
-  text-decoration: underline;
+  border-bottom: 1px solid black;
+  text-decoration: none;
   color: black;
 }
 
@@ -227,3 +229,4 @@ button:hover {
 .appprobe {
   font-size: 18px;
 }
+
