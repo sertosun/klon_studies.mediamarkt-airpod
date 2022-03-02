@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.airpod {
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+}
+
+.image img {
+  width: 622px;
+  height: 464px;
+}
+
+.images {
+  display: flex;
+}
+
+.images > * {
+  width: 135px;
+  height: 102px;
+  padding: 16px;
+  margin: 0 8px;
+  border: 1px solid #cfcbca;
+}
+
+.images > *:hover {
+  border: 1px solid red;
+}
+
+/* ----------------------------------------- */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 546px;
+}
+
+.financing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.financ {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.discount {
+  background-color: red;
+  padding: 5px 5px;
+  color: white;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.uvp {
+  font-size: 24px;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.tax {
+  font-size: 12px;
+  color: #494745;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.purchase {
+  padding: 6px 15px;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+
+.purchase:hover {
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.36);
+  border: none;
+}
+
+.delivery {
+  display: flex;
+  /* justify-content: flex-start; */
+  margin-top: 25px;
+  align-items: center;
+}
+
+.box,
+.boxblack {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: rgb(112, 193, 24);
+  margin-right: 10px;
+}
+
+.del_price {
+  justify-self: flex-end;
+}
+
+.boxblack {
+  background-color: #918e8c;
+}
+
+.pickup {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.select {
+  margin-left: 17px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.select a {
+  text-decoration: underline;
+  color: black;
+}
+
+.wishlist {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  color: white;
+  background-color: red;
+  width: 450px;
+  height: 46px;
+  text-align: center;
+  transition: all 300ms;
+  border: none;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+button:hover {
+  transition: all 300ms;
+  background-color: rgb(209, 5, 5);
+}
+
+.favori {
+  width: 46px;
+  height: 46px;
+  border: 2px solid #eaeaea;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.favori:hover {
+  box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px, rgb(0 0 0 / 6%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 10%) 0px 1px 8px 0px;
+}
+
+.range {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.warranty {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appmusic {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  padding: 6px 15px;
+  width: fit-content;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+.appprobe {
+  font-size: 18px;
+}
