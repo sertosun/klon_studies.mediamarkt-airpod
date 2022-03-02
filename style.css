@@ -35,9 +35,11 @@ body {
 
 .images {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.images > * {
+.images > img {
   width: 135px;
   height: 102px;
   padding: 16px;
@@ -45,8 +47,16 @@ body {
   border: 1px solid #cfcbca;
 }
 
-.images > *:hover {
+.images > img:hover {
   border: 1px solid red;
+}
+
+.images i {
+  background-color: black;
+  color: white;
+  height: fit-content;
+  font-size: 2.2rem;
+  padding: 0.5rem 1rem;
 }
 
 /* ----------------------------------------- */
